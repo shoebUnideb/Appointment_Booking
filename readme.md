@@ -3,20 +3,17 @@
 A web-based appointment scheduling application for a barber shop, allowing customers to book and manage appointments with their preferred barbers.
 
 ## Technologies Used
-
 ### Frontend
 - **HTML5**: Semantic markup structure
 - **CSS3**: Custom styling with responsive design
 - **JavaScript (ES6+)**: Client-side application logic
 - **Font Awesome 6.0.0**: Icon library for UI elements
 - **Google Fonts**: Oswald and Poppins font families
-
 ### Storage
 - **IndexedDB**: Client-side database for storing appointment information
   - Database Name: BarberShopDB
   - Object Store: appointments
-  - Version: 1
-
+  
 ## Features
 
 ### Current Features
@@ -26,28 +23,13 @@ A web-based appointment scheduling application for a barber shop, allowing custo
   - Service type selection
   - Barber preference selection
   - Form validation and submission
-
 - **Appointment Management**
   - View all upcoming appointments
   - Cancel existing appointments
   - Automatic refresh of available time slots
-
 - **Responsive Design**
   - Mobile-friendly interface
   - Accessible on various screen sizes
-
-### Data Structure
-The application stores appointment data with the following properties:
-- `id` (auto-generated)
-- `name` (customer name)
-- `email` (contact email)
-- `phone` (contact phone number)
-- `service` (selected service type)
-- `barber` (preferred barber or "Any Available")
-- `notes` (special requests)
-- `date` (appointment date)
-- `time` (appointment time slot)
-- `dateTime` (combined date and time for indexing)
 
 ## Setup Instructions
 
