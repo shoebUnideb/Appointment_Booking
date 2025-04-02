@@ -53,7 +53,7 @@ A web-based appointment scheduling application for a barber shop, allowing custo
 
 4. Access the application at `http://localhost:8000` or the port provided by your local server.
 
-### Production Deployment
+### For Production Deployment
 1. Upload all files to your web hosting service.
 2. Ensure HTTPS is enabled for better security, as IndexedDB may have limited functionality in non-secure contexts in some browsers.
 
@@ -66,11 +66,11 @@ The application uses modern web technologies that are supported by:
 - Edge 79+
 - Opera 47+
 
-### Known Limitations
+### Limitations
 - IndexedDB data is stored locally in the browser and will not sync across devices
 - Appointment data will be lost if the browser data is cleared
 
-## Potential Future Enhancements
+## My Future Goals
 
 1. **Server-Side Integration**
    - Backend API for persistent data storage
@@ -104,20 +104,3 @@ cut-and-style-barber/
 └── README.md                    # Project documentation
 ```
 
-## License
-
-© 2025 Cut & Style Barber Shop. All rights reserved.
-
-## Contributing
-
-For development contributions, please follow these steps:
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Submit a pull request
-
-## Support
-
-For technical support or feature requests, please open an issue on our GitHub repository or contact us at:
-- Email: tech-support@cutnstyle.com
-- Phone: (123) 456-7890
