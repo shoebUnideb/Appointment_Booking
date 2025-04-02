@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Cut & Style Barber Shop</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <i class="fas fa-cut logo-icon"></i>
+            <h1>Cut & Style</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html" class="active">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="services-container">
+        <div class="container">
+            <div class="services-main">
+                <div class="section-title">
+                    <h2>Our Services</h2>
+                    <p>Premium grooming services tailored for the modern gentleman</p>
+                </div>
+                
+                <section class="service-category">
+                    <h3><i class="fas fa-cut"></i> Hair Services</h3>
+                    <div class="service-table-container">
+                        <table class="service-table">
+                            <thead>
+                                <tr>
+                                    <th>Service</th>
+                                    <th>Description</th>
+                                    <th>Duration</th>
+                                    <th>Price</th>
+                                    <th>Select</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Classic Haircut</td>
+                                    <td>Precision scissor and clipper work with hot towel treatment</td>
+                                    <td>30-45 min</td>
+                                    <td>HUF 3500</td>
+                                    <td><input type="checkbox" class="service-checkbox" data-price="3500"></td>
+                                </tr>
+                                <tr>
+                                    <td>Premium Haircut</td>
+                                    <td>Includes shampoo, scalp massage, and styling</td>
+                                    <td>45-60 min</td>
+                                    <td>HUF 4500</td>
+                                    <td><input type="checkbox" class="service-checkbox" data-price="4500"></td>
+                                </tr>
+                                <tr>
+                                    <td>Hair Coloring</td>
+                                    <td>Professional coloring with premium products</td>
+                                    <td>60-90 min</td>
+                                    <td>HUF 6000+</td>
+                                    <td><input type="checkbox" class="service-checkbox" data-price="6000"></td>
+                                </tr>
+                                <tr>
+                                    <td>Kids Cut</td>
+                                    <td>Specialized haircuts for young gentlemen</td>
+                                    <td>30 min</td>
+                                    <td>HUF 2500</td>
+                                    <td><input type="checkbox" class="service-checkbox" data-price="2500"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+                
+                <section class="service-category">
+                    <h3><i class="fas fa-air-freshener"></i> Beard Services</h3>
+                    <div class="service-table-container">
+                        <table class="service-table">
+                            <thead>
+                                <tr>
+                                    <th>Service</th>
+                                    <th>Description</th>
+                                    <th>Duration</th>
+                                    <th>Price</th>
+                                    <th>Select</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Beard Trim</td>
+                                    <td>Professional trimming and shaping</td>
+                                    <td>20-30 min</td>
+                                    <td>HUF 2500</td>
+                                    <td><input type="checkbox" class="service-checkbox" data-price="2500"></td>
+                                </tr>
+                                <tr>
+                                    <td>Beard Treatment</td>
+                                    <td>Includes hot towel, oil, and balm application</td>
+                                    <td>30-45 min</td>
+                                    <td>HUF 3500</td>
+                                    <td><input type="checkbox" class="service-checkbox" data-price="3500"></td>
+                                </tr>
+                                <tr>
+                                    <td>Beard Coloring</td>
+                                    <td>Professional beard coloring service</td>
+                                    <td>45 min</td>
+                                    <td>HUF 4000</td>
+                                    <td><input type="checkbox" class="service-checkbox" data-price="4000"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+                
+                <section class="service-category">
+                    <h3><i class="fas fa-spa"></i> Premium Packages</h3>
+                    <div class="service-table-container">
+                        <table class="service-table">
+                            <thead>
+                                <tr>
+                                    <th>Service</th>
+                                    <th>Description</th>
+                                    <th>Duration</th>
+                                    <th>Price</th>
+                                    <th>Select</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Royal Shave</td>
+                                    <td>Traditional hot towel shave with pre/post treatment</td>
+                                    <td>45 min</td>
+                                    <td>HUF 4000</td>
+                                    <td><input type="checkbox" class="service-checkbox" data-price="4000"></td>
+                                </tr>
+                                <tr>
+                                    <td>Executive Package</td>
+                                    <td>Haircut, shave, facial & shoulder massage</td>
+                                    <td>90 min</td>
+                                    <td>HUF 7500</td>
+                                    <td><input type="checkbox" class="service-checkbox" data-price="7500"></td>
+                                </tr>
+                                <tr>
+                                    <td>Gentleman's Package</td>
+                                    <td>Haircut, beard trim, and facial treatment</td>
+                                    <td>75 min</td>
+                                    <td>HUF 6500</td>
+                                    <td><input type="checkbox" class="service-checkbox" data-price="6500"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+            </div>
+            
+            <aside class="price-calculator">
+                <div class="calculator-card">
+                    <h3><i class="fas fa-calculator"></i> Expected Price</h3>
+                    <div class="calculator-results">
+                        <div class="selected-services" id="selected-services">
+                            <p>No services selected</p>
+                        </div>
+                        <div class="total-price">
+                            <span>Total:</span>
+                            <span id="total-price">HUF 0</span>
+                        </div>
+                    </div>
+                    <button id="reset-calculator">Reset Selection</button>
+                    <div class="calculator-note">
+                        <p><i class="fas fa-info-circle"></i> Final price may vary based on specific requirements</p>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </div>
+    
+    <div class="booking-cta">
+        <div class="container">
+            <h3>Ready to experience our premium services?</h3>
+            <a href="index.html#booking-section" class="btn">Book Your Appointment</a>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Cut & Style</h3>
+                    <p>Premium barber services for the modern gentleman.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Hours</h3>
+                    <ul class="hours-list">
+                        <li>Mon-Fri: 9AM - 8PM</li>
+                        <li>Saturday: 9AM - 6PM</li>
+                        <li>Sunday: 10AM - 4PM</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <ul class="contact-list">
+                        <li><i class="fas fa-map-marker-alt"></i> Street 21, xyz District, Hungary</li>
+                        <li><i class="fas fa-phone"></i> +36 1 234 5678</li>
+                        <li><i class="fas fa-envelope"></i> info@cutnstyle.com</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>write anything </p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const checkboxes = document.querySelectorAll('.service-checkbox');
+            const selectedServicesDiv = document.getElementById('selected-services');
+            const totalPriceSpan = document.getElementById('total-price');
+            const resetBtn = document.getElementById('reset-calculator');
+            
+            let total = 0;
+            let selectedServices = [];
+            
+            checkboxes.forEach(checkbox => {
+                checkbox.addEventListener('change', function() {
+                    const serviceRow = this.closest('tr');
+                    const serviceName = serviceRow.cells[0].textContent;
+                    const servicePrice = parseFloat(this.dataset.price);
+                    
+                    if (this.checked) {
+                        total += servicePrice;
+                        selectedServices.push({
+                            name: serviceName,
+                            price: servicePrice
+                        });
+                    } else {
+                        total -= servicePrice;
+                        selectedServices = selectedServices.filter(service => service.name !== serviceName);
+                    }
+                    
+                    updateCalculator();
+                });
+            });
+            
+            resetBtn.addEventListener('click', function() {
+                checkboxes.forEach(checkbox => {
+                    checkbox.checked = false;
+                });
+                total = 0;
+                selectedServices = [];
+                updateCalculator();
+            });
+            
+            function updateCalculator() {
+                // Update selected services list
+                if (selectedServices.length === 0) {
+                    selectedServicesDiv.innerHTML = '<p>No services selected</p>';
+                } else {
+                    let html = '<ul>';
+                    selectedServices.forEach(service => {
+                        html += `<li>${service.name} - HUF ${service.price}</li>`;
+                    });
+                    html += '</ul>';
+                    selectedServicesDiv.innerHTML = html;
+                }
+                
+                // Update total price
+                totalPriceSpan.textContent = `HUF ${total.toFixed(2)}`;
+                
+                // Highlight if multiple services selected
+                if (selectedServices.length > 1) {
+                    document.querySelector('.total-price').classList.add('highlight');
+                } else {
+                    document.querySelector('.total-price').classList.remove('highlight');
+                }
+            }
+        });
+    </script>
+</body>
+</html>
