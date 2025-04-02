@@ -85,22 +85,4 @@ The application uses modern web technologies that are supported by:
    - Barber availability management
    - Service duration configuration
 
-3. **Technical Improvements**
-   - Progressive Web App (PWA) functionality for offline access
-   - Calendar view for appointment visualization
-   - Real-time updates with WebSockets or Server-Sent Events
-   - Image upload for hairstyle preferences
-
-## Project Structure
-
-```
-cut-and-style-barber/
-├── css/
-│   └── styles.css               # Main stylesheet
-├── js/
-│   ├── app.js                   # Main application logic
-│   └── db.js                    # IndexedDB database operations
-├── index.html                   # Main HTML entry point
-└── README.md                    # Project documentation
-```
 
