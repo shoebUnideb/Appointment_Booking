@@ -13,6 +13,11 @@ A web-based appointment scheduling application for a barber shop, allowing custo
 - **IndexedDB**: Client-side database for storing appointment information
   - Database Name: BarberShopDB
   - Object Store: appointments
+### Maps Integration
+- **Google Maps API**: Embedded interactive map showing shop location
+  - Responsive iframe implementation
+  - Custom pin marker
+  - Static fallback for slower connections
   
 ## Features
 
