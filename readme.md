@@ -1,6 +1,6 @@
 # Cut & Style Barber Shop
 
-A web-based appointment scheduling application for a barber shop, allowing customers to book and manage appointments with their preferred barbers.
+A web-based appointment scheduling application for a barber shop, allowing customers to book and manage appointments with their preferred barbers. <br>Live Link https://cutandstyle.netlify.app/ 
 
 ## Technologies Used
 ### Frontend
